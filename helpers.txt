@@ -1,0 +1,9 @@
+docker-compose up
+docker exec -it 2-db-1 bash
+
+# cd backups
+# cat /path/to/your/*.sql | mysql -u root -p new_data_base_name
+# mysql -u root -p root < sakila-db.sql
+# mysqldump --all-databases -u root -p root > ./all-databases.sql
+
+docker-compsoe down
